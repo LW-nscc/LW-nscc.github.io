@@ -1,6 +1,6 @@
 html {
     font-size: 200%;
-    background: lightgrey;
+    background-image: linear-gradient(rgb(0,66,82), rgb(251,147,52));
 }
 nav > ul > li {
     display: inline;
