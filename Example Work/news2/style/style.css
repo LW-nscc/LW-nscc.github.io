@@ -1,0 +1,68 @@
+article {
+    border: 5px #CEDC00;
+    border-style: solid;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    background-color: rgb(220, 220, 220);
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+p {
+    font-size: 20px;
+    font-weight: 500;
+}
+body {
+    /*background-color: #00594f;*/
+    background-image: linear-gradient(#00594f, #1f2c2b);
+}
+blockquote {
+    padding-top: 0.25em;
+    padding-bottom: 1rem;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    border: 5px #00594f;
+    border-style: solid;
+    font-weight: 700;
+    background-color: white;
+}
+.img {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding: 1rem;
+    border: 5px #00594f;
+    border-style: solid;
+    background-color: white;
+}
+.img > img {
+    margin-bottom: 15px;
+    border: 2px #CEDC00;
+    border-style: solid;
+}
+
+footer {
+    border: 5px #CEDC00;
+    border-style: solid;
+    background-color: white;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+header {
+    border: 5px #CEDC00;
+    border-style: solid;
+    background-color: white;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+footer > address {
+    font-size: 20px;
+    font-weight: 700;
+}

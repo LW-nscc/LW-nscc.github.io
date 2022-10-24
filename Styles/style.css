@@ -1,0 +1,25 @@
+html {
+    font-size: 200%;
+    background: lightgrey;
+}
+nav > ul > li {
+    display: inline;
+    margin-left: 1rem;
+}
+nav > ul > li > a {
+    color: black;
+}
+article {
+    margin-left: 8rem;
+    margin-right: 8rem;
+    padding: 1rem;
+    background-color: white;
+}
+h1 {
+    margin-left: 2rem;
+}
+.header {
+    background-color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
