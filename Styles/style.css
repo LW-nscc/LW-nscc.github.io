@@ -23,3 +23,8 @@ h1 {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
+body img {
+    width: 60%;
+    margin-left: 20%;
+    border: 1px solid black;
+}
