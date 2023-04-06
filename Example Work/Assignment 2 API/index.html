@@ -1,0 +1,44 @@
+<!--
+Author : Leonard Wylie
+Title : Assignment 2 : API
+Description : https://data.novascotia.ca/Population-and-Demographics/NS-Top-Twenty-Baby-Names-1920-Current/emf8-vmuy
+Assignment : https://nscconline.brightspace.com/d2l/le/content/263191/viewContent/3686397/View
+             https://nscconline.brightspace.com/d2l/le/dropbox/263191/385795/DownloadAttachment?fid=18918570
+!-->
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title>Assignment 2 : API</title>
+        <link href="Styles/style.css" rel="stylesheet" type="text/css">
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+        <script src="api.js"></script>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1><a href="../../examples.html" style="color: orange;">Click here to return to my Portfolio</a></h1>
+        <div class="holder">
+            <div id="input_menu">
+                <h1>Most Common Names in NS</h1>
+                <p>Between Year 1920 & 2022</p>
+                <p>By inserting a year and a sex into the input box<br>
+                    the api will return the top names of that year in<br>
+                    Nova Scotia.
+                </p>
+                <p>Year:</p>
+                <input type="text" id="yearIn">
+                <p>Sex: [F or M]</p>
+                <input type="text" id="sexIn">
+                <br><br><br>
+                <input type="button" value="Search" id="searchButton">
+                <p id="source"><a href="https://data.novascotia.ca/Population-and-Demographics/NS-Top-Twenty-Baby-Names-1920-Current/emf8-vmuy">Data Source</a></p>
+            </div>
+            <div id="output">
+                <div id="loaded">
+                </div>
+                <div id="loading">
+                    <p>Loading your results...</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
