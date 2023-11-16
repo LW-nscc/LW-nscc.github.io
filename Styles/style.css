@@ -1,26 +1,33 @@
 html {
     font-size: 150%;
-    background-image: linear-gradient(rgb(0,66,82), rgb(251,147,52));
+    background-image: linear-gradient(rgb(83, 83, 83), rgb(59, 70, 98));
 }
 nav > ul > li {
     display: inline;
     margin-left: 1rem;
 }
-nav > ul > li > a {
-    color: black;
+nav > ul > li > a, dt > a {
+    transition: 0.25s;
+    color: white;
+}
+nav > ul > li > a:hover, dt > a:hover {
+    color: rgb(136, 193, 239);
+}
+li, h2, h3, dt, dd {
+    color: white;
 }
 article {
     margin-left: 8rem;
     margin-right: 8rem;
     padding: 1rem;
-    background-color: white;
-    min-height: 85vh;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 h1 {
     margin-left: 2rem;
+    color: white;
 }
 .header {
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.3);
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
@@ -32,4 +39,12 @@ body img {
 hr {
     margin-top: 48px;
     margin-bottom: 48px;
+}
+p {
+    margin-top: 0;
+    margin-left: 2rem;
+    color: white;
+}
+body {
+    min-height: 99vh;
 }
