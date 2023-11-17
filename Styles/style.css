@@ -1,6 +1,10 @@
 html {
     font-size: 150%;
+    background-color: black;
     background-image: linear-gradient(rgb(83, 83, 83), rgb(59, 70, 98));
+}
+body {
+    min-height: 99vh;
 }
 nav > ul > li {
     display: inline;
@@ -45,10 +49,12 @@ p {
     margin-left: 2rem;
     color: white;
 }
-body {
-    min-height: 99vh;
-}
 .redacted {
     text-align: center;
     font-size: 16px;
+}
+h6 {
+    color: white;
+    text-align: center;
+    font-weight: 100;
 }
