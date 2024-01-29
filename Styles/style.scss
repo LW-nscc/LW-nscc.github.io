@@ -1,0 +1,160 @@
+$colorMain: #df6f00;
+$colorSecond: #944314;
+$colorThird: #fcba70;
+$colorThirdAlpha: #fcba7055;
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 32px;
+}
+
+.header {
+    height: 100vh;
+    color: white;
+
+    #name {
+        position: relative;
+        top: 30vh;
+        width: 25vw;
+        font-size: 800%;
+        margin: 0;
+        left: 15vw;
+        text-align: center;
+    }
+
+    #experience {
+        position: absolute;
+        top: 27vh;   
+        margin-left: 65vw;
+    }
+    
+    br {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    nav {
+        position: absolute;
+        top: 33vh;   
+        width: 35vw;
+        margin-left: 60vw;
+        font-size: 350%;
+        text-align: center;    
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+
+.content {
+    position:absolute;
+    top: 100vh;
+    left: 0px;
+    right: 0px;
+    box-shadow: 20vh white;
+
+    h1 {
+        text-align: center;
+    }
+    
+    hr {
+        width: 95vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.youtube_video {
+    width: 50vw;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    background-color: $colorThirdAlpha;
+    border-radius: 2em;
+    transition: 50ms;
+
+    h2 {
+        // video title
+        text-align: center;
+        font-weight: 900;
+    }
+
+    iframe {
+        // video embed
+        width: 100%;
+        aspect-ratio: 16/9;
+        border-radius: 2em;
+    }
+
+    p {
+        // description
+        font-style: italic;
+    }
+}
+
+.youtube_video:hover {
+    background-color: $colorThird;
+}
+
+a {
+    text-decoration: none;
+}
+
+.web_example {
+    color: black;
+    width: 50vw;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    background-color: $colorThirdAlpha;
+    border-radius: 2em;
+    transition: 50ms;
+
+    h2 {
+        // example title
+        text-align: center;
+        font-weight: 900;
+    }
+
+    h3 {
+        // click here
+        text-align: center;
+        font-weight: 900;
+    }
+
+    p {
+        // description
+        font-style: italic;
+    }
+}
+
+.web_example:hover {
+    background-color: $colorThird;
+}
+
+#background_image {
+    z-index: -1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    aspect-ratio: 16 / 9;
+    height: 100%;
+    width: 100%;
+}
+
+.background {
+    background-image: linear-gradient(20deg, $colorMain, $colorSecond);
+    z-index: -2;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}

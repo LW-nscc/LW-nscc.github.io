@@ -1,8 +1,0 @@
-BURGER included in many COMBO
-COMBO only has one BURGER
-DRINK included in many COMBO
-COMBO only has one DRINK
-TOY only has one LICENSE
-LICENSE has one or more TOY
-TOY has one or many COMBO
-COMBO has only one TOY
