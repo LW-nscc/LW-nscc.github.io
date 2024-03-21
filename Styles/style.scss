@@ -1,7 +1,7 @@
-$colorMain: #afa490;
-$colorSecond: #746d6a;
-$colorThird: #9b9b9b;
-$colorThirdAlpha: #9b9b9b55;
+$colorMain: #968d7d;
+$colorSecond: #58514e;
+$colorThird: #383634;
+$colorThirdAlpha: #38363455;
 
 html {
     scroll-behavior: smooth;
@@ -54,6 +54,7 @@ html {
     left: 0px;
     right: 0px;
     box-shadow: 20vh white;
+    color: white;
 
     h1 {
         text-align: center;
@@ -105,7 +106,7 @@ a {
 }
 
 .web_example {
-    color: black;
+    color: white;
     // width: 50vw;
     margin-top: 2em;
     margin-bottom: 2em;
@@ -143,20 +144,20 @@ a {
     position: absolute;
     top: 0px;
     left: 0px;
-    right: 0px;
-    aspect-ratio: 16 / 9;
-    height: 100%;
     width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
 }
 
 .background {
-    background-image: linear-gradient(20deg, $colorMain, $colorSecond);
+    background-image: linear-gradient(150deg, $colorMain, $colorSecond);
     z-index: -2;
     position: fixed;
     top: 0px;
     bottom: 0px;
     left: 0px;
     right: 0px;
+    object-fit: fill;
 }
 
 .content_link {

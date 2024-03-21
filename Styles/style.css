@@ -44,6 +44,7 @@ html {
   left: 0px;
   right: 0px;
   box-shadow: 20vh white;
+  color: white;
 }
 .content h1 {
   text-align: center;
@@ -60,7 +61,7 @@ html {
   margin-left: auto;
   margin-right: auto;
   padding: 1em;
-  background-color: rgba(155, 155, 155, 0.3333333333);
+  background-color: rgba(56, 54, 52, 0.3333333333);
   border-radius: 2em;
   transition: 50ms;
 }
@@ -78,7 +79,7 @@ html {
 }
 
 .youtube_video:hover {
-  background-color: #9b9b9b;
+  background-color: #383634;
 }
 
 a {
@@ -86,13 +87,13 @@ a {
 }
 
 .web_example {
-  color: black;
+  color: white;
   margin-top: 2em;
   margin-bottom: 2em;
   margin-left: auto;
   margin-right: auto;
   padding: 1em;
-  background-color: rgba(155, 155, 155, 0.3333333333);
+  background-color: rgba(56, 54, 52, 0.3333333333);
   border-radius: 2em;
   transition: 50ms;
 }
@@ -109,7 +110,7 @@ a {
 }
 
 .web_example:hover {
-  background-color: #9b9b9b;
+  background-color: #383634;
 }
 
 #background_image {
@@ -117,20 +118,20 @@ a {
   position: absolute;
   top: 0px;
   left: 0px;
-  right: 0px;
-  aspect-ratio: 16/9;
-  height: 100%;
   width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
 }
 
 .background {
-  background-image: linear-gradient(20deg, #afa490, #746d6a);
+  background-image: linear-gradient(150deg, #968d7d, #58514e);
   z-index: -2;
   position: fixed;
   top: 0px;
   bottom: 0px;
   left: 0px;
   right: 0px;
+  object-fit: fill;
 }
 
 .content_link {
