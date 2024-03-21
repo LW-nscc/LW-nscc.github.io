@@ -67,7 +67,7 @@ html {
 }
 
 .youtube_video {
-    width: 50vw;
+    // width: 50vw;
     margin-top: 2em;
     margin-bottom: 2em;
     margin-left: auto;
@@ -106,7 +106,7 @@ a {
 
 .web_example {
     color: black;
-    width: 50vw;
+    // width: 50vw;
     margin-top: 2em;
     margin-bottom: 2em;
     margin-left: auto;
@@ -157,4 +157,12 @@ a {
     bottom: 0px;
     left: 0px;
     right: 0px;
+}
+
+.content_link {
+	display: block;
+	width: 50vw;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1000px;
 }
