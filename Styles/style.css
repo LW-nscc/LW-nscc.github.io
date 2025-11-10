@@ -93,10 +93,8 @@ hr {
   height: 100%;
 }
 .media_div .media {
-  display: flex;
   width: 100%;
   height: 100%;
-  place-items: center;
 }
 .media_div .media iframe {
   aspect-ratio: 16/9;
@@ -108,7 +106,6 @@ hr {
 }
 
 .sidebar {
-  display: flex;
   text-align: center;
   position: fixed;
   left: 0;
@@ -138,11 +135,6 @@ hr {
   font-size: 2em;
 }
 
-.main_body {
-  width: 85vw;
-  margin-left: auto;
-}
-
 .social {
   display: grid;
   height: 4em;
@@ -165,6 +157,26 @@ hr {
 
 .social:hover {
   font-weight: bolder;
+}
+
+@media screen and (width <= 1200px) {
+  .main_body {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sidebar {
+    display: none;
+  }
+}
+@media screen and (width > 1200px) {
+  .main_body {
+    width: 85vw;
+    margin-left: auto;
+  }
+  .sidebar {
+    display: flex;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
